@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "hexo g && hexo d"
+  command = "git config --global user.email "minxingmao@163.com" && git config --global user.name "lsy252525 && hexo g && hexo d""
   functions = "netlify/functions"
   publish = "public"
 
