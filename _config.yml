@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.落叶归根.com
+url: https://sweet-dodol-4eb33b.netlify.app/
 permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
