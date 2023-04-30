@@ -101,14 +101,20 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repository: git@github.com:lsy252525/lsy252525-s-blog.git
-  branch: master
 
-lazyload:
-  enable: true
-  onlypost: false # optional
-  loadingImg: # optional eg ./images/loading.gif
-  isSPA: false # optional
-  preloadRatio: 3 # optional, default is 1
+
+  # Search
+search:
+path: search.xml
+field: post
+format: html
+limit: 10000
+
+#文章、站点字数统计
+symbols_count_time:
+  symbols: true                # 文章字数统计
+  time: true                   # 文章阅读时长
+  total_symbols: true          # 站点总字数统计
+  total_time: true             # 站点总阅读时长
+  exclude_codeblock: false     # 排除代码字数统计
+

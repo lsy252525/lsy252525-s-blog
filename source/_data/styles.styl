@@ -1,0 +1,47 @@
+// 修改链接样式
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  &:hover {
+    color: #ff106c;
+  }
+}
+
+a, span.exturl {
+  border-bottom: none;
+  &:hover {
+    color: #ff106c;
+  }
+}
+
+  //去掉顶部黑线：
+.headband {display:none;}
+
+// 修改选中字符的颜色
+/* webkit, opera, IE9 */
+::selection { 
+    background: #00c4b6;
+    color: #f7f7f7; 
+}
+/* firefox */
+::-moz-selection { 
+    background: #00c4b6;
+    color: #f7f7f7;    
+}
+
+// 代码块选中颜色
+.highlight *::selection {
+    background: #00c4b6;
+}
+
+//修改引用样式
+blockquote {
+    border-left: 4px solid #f27c8d;
+}
+
+// 标题栏背景图片
+.site-brand-container { 
+  background-image: url(/images/f45eac1bf6c721990011793d9b2acd36.jpeg);
+  background-size: 100% 100%;
+  opacity: 0.9;
+}
